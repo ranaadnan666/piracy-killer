@@ -1,0 +1,162 @@
+.Blog-Card-outer-1{
+    display: flex;
+    /* width: 95%; */
+    overflow-x: hidden;
+    padding:1rem 6rem;
+    justify-content: space-between;
+}
+#parent-div{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+#Blog-heading-11 p{
+    color: gray;
+
+}
+.left-date-1 i{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.left-date-1 span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.left-date-1{
+    width: 50px;
+    overflow-y: hidden;
+
+    height: 50px;
+    margin-top: 20px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    border-radius: 50%;
+}
+#Blog-heading-11 h1{
+    color:tomato;
+    font-weight: 800;
+
+}
+.inner-b-card p{
+    color: gray;
+}
+.inner-b-card:hover{
+    box-shadow: 0px 0px 10px  gray;
+
+}
+.inner-b-card h2:hover{
+    color: tomato;
+    cursor: pointer;
+}
+#btn-view-all{
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    margin: 2rem;
+    border-radius: 200px;
+    font-weight: 800;
+    color: white;
+    background-color: tomato;
+}
+#btn-view-all:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.card-b-right h2{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.inner-b-card{
+    background-color: white;
+    width: 30%;
+    overflow-x: hidden;
+    transition:  .7s all ease!important;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.inner-b-card img{
+    width: 100%;
+}
+.inner-card-b-1{
+    display: flex;
+    justify-content: space-between;
+}
+.card-b-left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.card-b-right{
+    width: 80%;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+@media (min-width:280px) and (max-width:540px){
+
+    #parent-div{
+        padding: 1rem 0rem;
+    }
+    .Blog-Card-outer-1{
+        display: flex;
+        padding:1rem 1rem;
+        flex-direction: column;
+    }
+    .inner-b-card{
+        background-color: white;
+        width: 90%;
+        margin-top: 10px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media (min-width:768px) and (max-width:992px){
+    #parent-div{
+        padding: 1rem 0rem;
+    }
+    .Blog-Card-outer-1{
+        display: flex;
+        padding:1rem 1rem;
+    }
+    .inner-b-card{
+    
+        margin: 5px;
+    
+    }
+    .left-date-1 i{
+        font-size: 1rem;
+    }
+    .left-date-1 span{
+        font-size: 0.7rem;
+    }
+    .left-date-1{
+        width: 50px;
+        height: 40px;
+    }
+    .card-b-right{
+     
+        padding: 0rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1280px){
+    #parent-div{
+        padding: 1rem 0rem;
+    }
+    .Blog-Card-outer-1{
+        display: flex;
+        padding:1rem 4rem;
+    }
+    .inner-b-card{
+    
+        margin: 5px;
+    
+    }
+}

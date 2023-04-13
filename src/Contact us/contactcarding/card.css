@@ -1,0 +1,75 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+   
+}
+.contact-header{
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+.span{
+    color: #FA6742;
+   font-weight: 700;
+}
+.contact-header h2{
+    color: #b4b4b4;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 14px;
+}
+.contact-wrap{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+}
+.contact-card{
+width: 280px;
+background-color: #F7F9F8;
+text-align: left;
+ border-radius: 3px;
+ padding: 20px 40px 20px 40px;
+ align-items: center;
+ margin: 10px;
+
+ 
+}
+.cart-img{
+    display: flex;
+  align-items: center;
+
+ }
+ .cart-img h3{
+    padding-left :30px ;
+    font-size: 30px;
+    color: #2f2c2c;
+ }
+ .cart{
+display: flex;
+  align-items: center;
+  
+  color: #757575;
+ }
+ .cart p{
+    padding-left :30px ;
+    
+ }
+
+ 
+ @media ( 550px <= width <= 820px) {
+
+    .contact-card{
+        width: 150px; 
+       
+    }
+   
+    
+
+
+
+ }

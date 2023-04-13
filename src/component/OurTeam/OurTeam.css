@@ -1,0 +1,63 @@
+.ourTeam {
+  width: 100%;
+  padding: 40px 0;
+
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.teamProfile {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profiles {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profiles img {
+  width: 140px;
+  height: auto;
+}
+.profiles h3 {
+  font-size: 20px;
+  line-height: 40px;
+}
+.profiles h5 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.social-icons {
+  margin-top: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (541px <= width <= 992px) {
+  .profiles img {
+    width: 100px;
+  }
+  .profiles h3 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+  }
+}
+@media (260px <= width <= 540px) {
+  .teamProfile {
+    flex-direction: column;
+  }
+  .profiles {
+    margin-top: 10px;
+    width: 100%;
+  }
+}

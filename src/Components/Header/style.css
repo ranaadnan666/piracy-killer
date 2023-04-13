@@ -1,0 +1,108 @@
+.parent-piracy-headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-piracy-headers{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.piracy-head-left{
+    width: 60%;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+}
+.piracy-head-left i{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.piracy-head-right{
+    width: 20%;
+    padding: 0.6rem;
+    color: gray;
+
+   
+}
+
+#foloow-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#foloow-info i{
+    font-size: 1.3rem;
+color: black;
+}
+
+#foloow-info i:hover{
+    color: rgb(247, 117, 94);
+    cursor: pointer;
+}
+
+
+@media (min-width:280px) and (max-width:540px){
+    .inner-piracy-headers{
+        width: 100%;
+        flex-direction: column;
+     
+    }
+
+    .piracy-head-left{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .piracy-head-right{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+
+
+    
+       
+    }
+    #foloow-info{
+
+        width: 60%;
+     
+    }
+    #foloow-info i{
+        font-size: 1.1rem;
+    
+    }
+    .piracy-head-left span{
+        margin-top: 10px;
+    }
+    .piracy-head-left i{
+        font-size: 1rem;
+   
+    }
+ 
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    .inner-piracy-headers{
+        width: 90%;
+    }
+
+    .piracy-head-right{
+        width: 30%;
+    
+       
+    }
+
+
+    .piracy-head-left{
+        width: 80%;
+    }
+}

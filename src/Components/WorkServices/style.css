@@ -1,0 +1,95 @@
+.work-space-main-card{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 4rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.work-space-inner-card{
+    width: 20%;
+    margin: 5px;
+    padding: 1rem;
+ 
+}
+
+#work-data-bg{
+  
+    transition:  .7s all ease!important;
+    padding: 2.5rem;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.work-space-inner-card p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+
+
+#work-data-bg:hover{
+    box-shadow: 0px 0px 10px  gray;
+
+}
+#step-head p{
+    color: gray;
+}
+#step-head h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: tomato;
+}
+
+
+#get-started-1{
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: text;
+    background-color: tomato;
+    border-radius: 200px;
+    border: none;
+}
+
+
+
+@media (min-width:280px) and (max-width:540px){
+    .work-space-main-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1rem;
+    }
+    .work-space-inner-card{
+        width: 100%;
+        margin: 0px;
+       display: flex;
+       flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    .work-space-main-card{
+    
+        padding: 1rem 1rem;
+    }
+    #work-data-bg{
+        padding: 1.2rem;
+    
+    }
+}

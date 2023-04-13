@@ -1,0 +1,265 @@
+.contact-main-contact{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+.contact-left-side h1{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: left;
+
+}
+.contact-left-side p{
+   width: 70%;
+   color: gray;
+    text-align: left;
+}
+.icon-text-11{
+    display: flex;
+    padding:2rem 0rem;
+    /* background-color: red; */
+    
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+#abv-ico{
+    padding: 0.5;
+    color: tomato;
+    font-size: 2.5rem;
+}
+#abv-icon11{
+    color: tomato;
+    padding: 0.5rem ;
+    font-size: 3.5rem;
+}
+.abc-left{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.abc-left span{
+    padding-left: 1rem;
+}
+.icon-text-11 i{
+    font-size: 1rem;
+}
+.contact-left-side{
+    width: 50%;
+    padding: 1rem 2.6rem;
+
+}
+.contact-right-side{
+    width: 50%;
+    padding: 2rem;
+    
+}
+
+.text-box-50{
+    width: 100%;
+}
+.text-box-50 input{
+    width: 40%;
+    outline: none;
+    margin: 5px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.text-box-100{
+    width: 100%;
+
+}
+.text-box-100 input{
+    width: 86%;
+    outline: none;
+
+    padding: 12px;
+    border: 1px solid gray;
+
+    margin: 5px;
+    border-radius: 10px;
+
+
+}
+
+.text-box-btn{
+    width: 94%;
+    display: flex;
+    padding: 2rem 0rem;
+    justify-content: flex-end;
+}
+
+.text-box-btn button{
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    color: white;
+    background-color: tomato;
+    border-radius: 200px;
+}
+
+
+@media (min-width:280px) and (max-width:540px){
+    .contact-main-contact{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .contact-left-side{
+        width: 90%;
+        padding: 1rem;
+    
+    }
+   
+    .contact-right-side{
+        width: 90%;
+        padding: 0rem;
+        
+    }
+    .text-box-50{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-box-50 input{
+        width: 90%;
+    
+    }
+    .text-box-100 input{
+        width: 90%;
+    
+    
+    
+    
+    }
+    .contact-left-side p{
+        width: 80%;
+    
+     }
+    .text-box-btn{
+        width: 100%;
+       
+    }
+    .icon-text-11{
+        display: flex;
+        padding: 0rem;
+        text-align: left;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .abc-left{
+        width: 100%;
+    }
+    #abv-ico{
+        
+      text-align: left;
+    }
+    #abv-ico{
+        font-size: 1.7rem;
+    }
+    #abv-icon11{
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+@media (min-width:768px) and (max-width:992px){
+    .contact-main-contact{
+        display: flex;
+        justify-content: center;
+        padding: 0rem 0rem;
+    }
+    .contact-left-side{
+        width: 40%;
+        padding: 1rem;
+    
+    }
+   
+    .contact-right-side{
+        width: 40%;
+        padding: 3rem 1rem;
+        
+    }
+    .text-box-50{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-box-50 input{
+        width: 90%;
+    
+    }
+    .text-box-100 input{
+        width: 90%;
+    
+    
+    
+    
+    }
+    .contact-left-side p{
+        width: 80%;
+    
+     }
+    .text-box-btn{
+        width: 100%;
+       
+    }
+    .icon-text-11{
+        display: flex;
+        padding: 0rem;
+        text-align: left;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .abc-left{
+        width: 100%;
+    }
+    #abv-ico{
+        
+      text-align: left;
+    }
+    #abv-ico{
+        font-size: 1.7rem;
+    }
+    #abv-icon11{
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (min-width:1024px) and (max-width:1300px){
+    .contact-main-contact{
+        display: flex;
+        justify-content: center;
+        padding: 0rem 0rem;
+    }
+    .contact-left-side{
+        width: 45%;
+        padding: 1rem;
+    
+    }
+   
+    .contact-right-side{
+        width: 45%;
+        padding: 3rem 1rem;
+        
+    }
+    #abv-ico{
+        
+        text-align: left;
+      }  
+      #abv-ico{
+          font-size:2.5rem;
+      }
+      #abv-icon11{
+
+          font-size: 4rem;
+      }
+}

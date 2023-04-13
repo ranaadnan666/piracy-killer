@@ -1,0 +1,35 @@
+.features {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-sub-div {
+  margin: 0 5px;
+  text-align: center;
+}
+.features-sub-div img {
+  height: auto;
+  width: 120px;
+}
+.features-sub-div h6 {
+  font-size: 20px;
+}
+
+@media (260px <= width <= 540px) {
+  .features {
+    flex-direction: column;
+    height: auto;
+  }
+  .features-sub-div {
+    padding: 25px 0;
+  }
+  .features-sub-div img {
+    height: auto;
+    width: 120px;
+  }
+  .features-sub-div h6 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,129 @@
+.case-study-parent{
+display: flex;
+justify-content: center;
+/* width: 90%; */
+padding: 2rem 4rem;
+overflow-y: hidden;
+overflow-x: hidden;
+
+
+
+}
+
+.main-story-1{
+    background-color: aliceblue;
+    padding: 1rem;
+
+
+}
+.case-study-inner{
+    width: 27%;
+    padding: 1rem;
+    
+    transition:  .7s all ease!important;
+    background-color: white;
+     margin: 5px;
+    border-radius: 10px;
+}
+.case-study-inner:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px  gray;
+}
+
+
+.case-study-inner img{
+    padding: 1rem;
+}
+.case-study-inner{
+    padding: 1rem;
+}
+.case-study-inner p{
+    color: gray;
+}
+#Case-story-headimg p{
+ color: gray;
+}
+#Case-story-headimg h2{
+    color: tomato;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#bgimage{
+    width: 100%;
+}
+
+#bgimage img{
+    width: 100%;
+}
+
+.case-study-inner h3{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.case-study-inner h3:hover{
+ color: tomato;
+}
+
+#View-all1-1{
+    width: 15%;
+    margin: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 200px;
+}
+
+@media (min-width:280px) and (max-width:540px){
+    .main-story-1{
+        padding: 1rem;
+    }
+   
+    .case-study-parent{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0.5rem;
+        width: auto;
+        
+        }
+      
+        .case-study-inner{
+            width: 90%;
+            padding: 1rem;
+            background-color: white;
+             margin: 0px;
+             margin-top: 10px;
+            border-radius: 10px;
+        }
+        #View-all1-1{
+            width: 50%;
+    
+        }
+
+
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+     
+   
+
+    .case-study-parent{
+
+        display: flex;
+        padding: 1rem 1rem;
+       width: 95%;        
+        }
+        .main-story-1{
+            padding: 1rem;
+        }
+        #View-all1-1{
+            width: 20%;
+    
+        }
+
+}

@@ -1,0 +1,108 @@
+.main-services-parent{
+    padding: 3rem 9rem;
+
+}
+
+.main-services-inner{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.service-right-1{
+    width: 40%;
+    text-align: left;
+}
+
+.service-left-1{
+    width: 40%;
+    text-align: right;
+}
+
+.parent-m-card{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.inner-m-card{
+    width: 30%;
+    transition:  .7s all ease!important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+    margin: 10px;
+    padding: 1rem;
+}
+.inner-m-card:hover{
+box-shadow: 0px 0px 10px  gray;
+
+}
+.inner-m-card button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    color: tomato;
+    border: none;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:540px){
+    .main-services-inner{
+        width: 100%;
+        display: flex;
+        flex-direction:column ;
+    }
+    .main-services-parent{
+        padding: 1rem 2rem;
+    }
+    #abc1{
+        display: none;
+    }
+    .service-right-1{
+        width: 100%;
+    }
+    .service-left-1{
+        width: 100%;
+        text-align: center;
+    }
+    .parent-m-card{
+
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+    }
+    .inner-m-card{
+        width: 90%;
+        margin: 0px;
+        margin-top: 10px;
+        padding: 1rem;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .main-services-parent{
+        padding: 1rem 3rem;
+    }
+    .parent-m-card{
+
+       
+        padding: 1rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,75 @@
+.piracy-outer-nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    align-items: center;
+}
+
+.piracy-inner-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.img-logo-piracy{
+    width: 150px;
+}
+
+.img-logo-piracy img{
+    width: 100%;
+}
+
+.nav-piracy-third i{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.nav-piracy-third{
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 200px;
+    padding: 0.5rem 0.5rem;
+    width: 100px;
+
+}
+
+#white-line{
+    opacity: 0.4;
+}
+.nav-piracy-second{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-piracy-second a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-piracy-second a:hover{
+    color: rgb(250, 68, 36);
+}
+
+
+
+
+@media (min-width:280px) and (max-width:992px){
+    .nav-piracy-third{
+       display: none;
+    
+    }
+   
+    .nav-piracy-second{
+      display: none;
+    }
+}

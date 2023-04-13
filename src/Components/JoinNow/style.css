@@ -1,0 +1,114 @@
+/* *{
+    overflow-x: hidden;
+} */
+.main-jpin-now{
+    padding: 1rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    /* height: 200px; */
+}
+.btn-picleft-1{
+    overflow-y: hidden;
+}
+#data-image-2{
+    margin-top: 70px;
+}
+.btn-picleft-1{
+    width: 15%;
+}
+.btn-picleft-1 img{
+width: 100%;
+/* margin-left: -100px; */
+}
+.input-join-11-1{
+    width: 50%;
+    
+}
+.ab1-1-1{
+    width: 15%;
+}
+.input-join-11-1 h2{
+    color: white;
+    padding-left: 5rem;
+    font-size: 2rem;
+    font-weight: 800;
+
+    text-align: left;
+}
+.input-join-11-1 i{
+    color: black;
+}
+.input-join-11-1 input{
+    padding: 1rem;
+    width: 60%;
+    margin: 5px;
+    border-radius: 200px;
+    outline: none;
+}
+
+
+.input-join-11-1 button{
+    border-radius: 200px;
+    width: 20%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+@media(min-width:280px) and (max-width:540px){
+  
+    .main-jpin-now{
+        padding: 0rem;
+    }
+    .input-join-11-1{
+        width: 70%;
+    }
+    .btn-picleft-1{
+        display: none;
+    }
+    .ab1-1-1{
+        display: none;
+    }
+    .input-join-11-1 h2{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    
+    }
+    .input-join-11-1 input{
+        width: 80%;
+      
+    }
+    .input-join-11-1 button{
+        width: 40%;
+        margin: 10px;
+       
+    }
+
+}
+
+
+@media(min-width:768px) and (max-width:992px){
+    
+    .input-join-11-1{
+        width: 38%;
+    }
+
+    .input-join-11-1 input{
+        width: 80%;
+    }
+    .input-join-11-1 h2{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    
+    }
+    .input-join-11-1 button{
+        width: 40%;
+        margin-top: 20px;
+       
+    }
+}

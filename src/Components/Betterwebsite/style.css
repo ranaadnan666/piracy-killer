@@ -1,0 +1,168 @@
+.About-website-perent{
+    display: flex;
+    padding: 3rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
+}
+.web-about-right p{
+    width: 90%;
+}
+.web-about-left{
+    width: 40%;
+    padding: 2rem 5rem;
+
+
+}
+
+.web-about-left img{
+    width: 100%;
+}
+.web-about-right{
+    padding: 2rem 5rem;
+    text-align: left;
+    width: 50%;
+}
+
+.btn-learn-11{
+    display: flex;
+    width: 100%;
+
+}
+#learn1:hover{
+    background-color: black;
+}
+#learn2:hover{
+    background-color: black;
+}
+#learn1{
+    border: none;
+    margin: 5px;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    border-radius: 200px;
+    color: white;
+    background-color: tomato;
+}
+
+#learn2{
+    margin: 5px;
+    padding: 1rem 2rem;
+    border: none;
+
+    font-weight: 800;
+    border-radius: 200px;
+    color: white;
+    background-color:rgb(180, 224, 90);
+}
+
+
+
+.parent-cart-web{
+    display: flex;
+    padding: 3rem;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    justify-content: center;
+}
+.inner-card-web{
+    transition:  .7s all ease!important;
+     overflow-x: hidden;
+    width: 18.5%;
+    background-color: white;
+    margin: 7px;
+
+    border-radius: 10px;
+  padding: 1rem;
+
+}
+.inner-card-web:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.inner-card-web h1{
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:540px){
+    .About-website-perent{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .web-about-left{
+        width: 100%;
+        overflow-x: hidden;
+        padding: 1rem 1rem;
+    
+    }
+    .web-about-right{
+        padding: 1rem 1rem;
+    
+        width: 100%;
+    }
+    .parent-cart-web{
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+    
+
+    
+    
+    }
+    .inner-card-web{
+       width: calc(90% - 10px);
+        margin: 10px;
+     
+
+        
+    
+    }
+    
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    .About-website-perent{
+        display: flex;
+        padding: 1rem;
+    }
+    .web-about-right{
+        padding: 2rem 2rem;
+    
+        text-align: left;
+        width: 50%;
+    }
+
+    #learn1{
+        border: none;
+        padding: 1rem 1rem;
+    }
+    #learn2{
+        padding: 1rem 1rem;
+    
+    }
+
+    .parent-cart-web{
+        display: flex;
+        padding: 1rem;
+    
+    
+    }
+
+    
+
+    
+}
